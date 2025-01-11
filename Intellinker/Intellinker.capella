@@ -3367,6 +3367,8 @@
             name="操作人员" abstractType="#679def57-40d2-4e16-bf3a-e4c56fb95e76"/>
         <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="2eee1491-66fd-4938-9b0b-5a8e7b2722f5"
             name="基站" abstractType="#b9c925ef-278a-46cb-a828-169692c8b603"/>
+        <ownedPhysicalLinks xsi:type="org.polarsys.capella.core.data.cs:PhysicalLink"
+            id="2d6fb5ff-26d0-484b-bcb5-3ca297125d56" name="Wifi" linkEnds="#76402f17-a406-4df4-a812-7ace30edcf0d #1b45fe41-25ab-49d2-9653-cfb4a7982c73"/>
         <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
             id="477c0242-18fa-4875-85b9-ff9b2d6cfa62" name="Physical System">
           <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
@@ -3893,13 +3895,13 @@
                 <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
                     id="29d49838-ce2d-4d09-9a5f-544511e88b51" name="PP 5"/>
                 <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
-                    id="eb245140-aba2-4b84-93ee-9f393ec601f0" name="PP 6"/>
-                <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
                     id="90d0f383-d794-44cc-98b1-851e0d2bbc79" name="PP 7"/>
                 <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
                     id="6757c3a8-bc32-400c-99bd-ad75e6209f6d" name="PP 8"/>
                 <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
                     id="1aecebc2-53dd-4972-b5c3-6114b0912f4d" name="PP 9"/>
+                <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
+                    id="eb245140-aba2-4b84-93ee-9f393ec601f0" name="PP 6"/>
                 <ownedComponentRealizations xsi:type="org.polarsys.capella.core.data.cs:ComponentRealization"
                     id="e8f10ed3-d264-4f54-9f85-d7324245dcde" targetElement="#a8e14e07-83c2-481b-91d6-b94a233ffd82"
                     sourceElement="#a66bddf6-a602-467e-969d-bc39a116b61f"/>
@@ -3932,6 +3934,8 @@
               id="ff38c91a-a1b5-430e-a7b1-feafc445bae7" name="监控系统" nature="NODE">
             <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="0d65948c-e939-4fe1-ba38-79e9e43259c3"
                 name="摄像头" abstractType="#5aa2b1d1-b8ee-4e55-91ac-1588d80ee440"/>
+            <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
+                id="1b45fe41-25ab-49d2-9653-cfb4a7982c73" name="PP 2"/>
             <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
                 id="5aa2b1d1-b8ee-4e55-91ac-1588d80ee440" name="摄像头" actor="true"
                 nature="NODE">
@@ -3978,6 +3982,8 @@
               sourceElement="#b9c925ef-278a-46cb-a828-169692c8b603"/>
           <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
               id="920272a3-7023-4eef-8a19-cc3e997f0fdc" name="PP 1"/>
+          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
+              id="76402f17-a406-4df4-a812-7ace30edcf0d" name="PP 2"/>
         </ownedPhysicalComponents>
       </ownedPhysicalComponentPkg>
       <ownedLogicalArchitectureRealizations xsi:type="org.polarsys.capella.core.data.pa:LogicalArchitectureRealization"
