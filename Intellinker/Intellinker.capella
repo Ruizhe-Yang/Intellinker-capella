@@ -497,8 +497,8 @@
               id="f2efc943-b385-4cc2-93a3-5aad9c5c73a6" name="数据上传" target="#11d913dd-ed46-4f5a-9072-017e3d2cc7fe"
               source="#b1362297-f627-4df1-a656-224c5974ff05"/>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
-              id="a97b7840-f888-4264-9a2d-6035656a1f7b" name="FunctionalExchange 16"
-              target="#7e4719f9-a1f1-47ff-8600-2fea17929c0d" source="#8dde322f-f484-47d1-858e-4fc180ed6ae9"/>
+              id="a97b7840-f888-4264-9a2d-6035656a1f7b" name="信号传输" target="#7e4719f9-a1f1-47ff-8600-2fea17929c0d"
+              source="#8dde322f-f484-47d1-858e-4fc180ed6ae9"/>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
               id="90d477a8-03d5-4c2f-92b9-28299a256313" name="射频信号传输" target="#e9c2c0b6-4ed8-46fe-a93d-299fd6c350d4"
               source="#fe6f8eea-2727-425c-a4a7-7bac5c8471c5"/>
